@@ -1,0 +1,144 @@
+// Custom styles for the OCCO page
+$occogreen: #0e6c38;
+$occogreen-lt: #84a99a;
+
+.content-wrapper {
+  .sectionRow {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin: 0 0 40px 0;
+    padding: 0;
+  }
+  .sectionRow.-wrap {
+    flex-wrap: wrap;
+  }
+  h1, h2, h3 {
+    color: $occogreen;
+  }
+  h4 {
+    // margin-top: 2rem;
+    margin-bottom: 0;
+  }
+  .btn {
+    color: #FFF;
+    background-color: darken($occogreen, 4%);
+    padding: 8px 24px;
+
+    &:hover {
+      background-color: lighten($occogreen, 2%);
+    }
+  }
+  .linkCTA {
+    color: darken($occogreen, 4%);
+
+    &:hover {
+      color: lighten($occogreen, 2%);
+    }
+  } // linkCTA
+  .watermark {
+    height: 80px;
+    width: 80px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+
+    &:after {
+      content: "";
+      background: url("../../images/olive-illustration-right.svg") no-repeat fixed center;
+      opacity: 0.5;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      position: absolute;
+      z-index: -1;
+    }
+  }
+} //content-wrapper
+
+// Hero section
+#hero {
+  overflow: hidden;
+} // hero
+.heroImg-left, .heroImg-right {
+  width: 25%;
+}
+.hero-textBox {
+  text-align: center;
+  width: 50%;
+
+  a {
+    text-transform: uppercase;
+  }
+} // hero-textBox
+.heroImg-right {
+  margin-right: -10px;
+} // heroImg-right
+// Intro section
+#intro {
+  img {
+    width: 50%;
+    height: auto;
+  }
+} // intro
+.intro-textBox {
+  width: 85%;
+  margin-left: 8%;
+
+  p {
+    margin-bottom: 20px;
+  }
+}
+// Ingredients section
+
+// Regimen section
+
+// Set section
+.set-textBox {
+  text-align: left;
+  width: 85%;
+  margin-left: 8%;
+
+  a {
+    text-transform: uppercase;
+  }
+} // set-textBox
+.setImg-right {
+  img {
+    // width: 50%;
+    height: auto;
+  }
+}
+// Testimonial section
+#testimonials {
+  text-align: center;
+  padding: 40px 0 0 0;
+  height: 450px;
+
+  #testimonialSlider {
+    position: relative;
+    height: auto;
+    margin: 0 auto;
+    // max-width: 1280px;
+
+    .slick-list {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .testimonial {
+      width: 80% !important;
+      max-width: 1280px;
+    }
+  } // testimonialSlider
+} // testimonials
+// Blog section
+#blog {
+  position: relative;
+}
+.blog-textBox {
+  position: absolute;
+  width: 85%;
+  left: 8%;
+  top: 8%;
+}

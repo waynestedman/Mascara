@@ -1,0 +1,32 @@
+{
+  "name": "occo",
+  "version": "1.0.1",
+  "description": "olive concentrated cleansing oil page",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Wayne Stedman",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^9.1.5",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-livereload": "^4.0.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "npm": "^6.4.1"
+  },
+  "keywords": [
+    "DHC",
+    "olive",
+    "concentrated",
+    "cleansing",
+    "oil"
+  ]
+}

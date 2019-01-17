@@ -1,0 +1,52 @@
+@media only screen and (max-width: 599px) {
+  // .cms-page-view .column.main p {
+  //   margin: 0 auto 10px auto;
+  // }
+  // .content-wrapper {
+  //   h1 {
+  //     font-size: 45px;
+  //   }
+  //   h2 {
+  //     font-size: 35px;
+  //   }
+  //   h3 {
+  //     font-size: 25px;
+  //   }
+  //   h4 {
+  //     font-size: 60px;
+  //   }
+  //   h5 {
+  //     font-size: 22px;
+  //   }
+  //   h6 {
+  //     font-size: 15px;
+  //   }
+  //   p {
+  //     font-size: 15px;
+  //   }
+} // Mobile - everything smaller than 500
+@media only screen and (max-width: 1024px) and (min-width: 600px) {
+  // .content-wrapper {
+  //   h1 {
+  //     font-size: 50px;
+  //   }
+  //   h2 {
+  //     font-size: 45px;
+  //   }
+  //   h3 {
+  //     font-size: 28px;
+  //   }
+  //   h4 {
+  //     font-size: 50px;
+  //   }
+  //   h5 {
+  //     font-size: 20px;
+  //   }
+  //   p {
+  //     font-size: 16px;
+  //   }
+  // } // content-wrapper
+} // min 600 to max 1024 - Tablet
+// @media only screen and (max-width: 800px) and (min-width: 600px) {
+//
+// } // min 600 to max 800 - Tablet exceptions
