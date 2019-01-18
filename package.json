@@ -1,7 +1,7 @@
 {
-  "name": "occo",
+  "name": "mascara",
   "version": "1.0.1",
-  "description": "olive concentrated cleansing oil page",
+  "description": "Mascara info page",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -24,9 +24,6 @@
   },
   "keywords": [
     "DHC",
-    "olive",
-    "concentrated",
-    "cleansing",
-    "oil"
+    "mascara"
   ]
 }
