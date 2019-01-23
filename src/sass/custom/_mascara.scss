@@ -1,0 +1,38 @@
+// Custom styles for the Mascara page
+$mascaraplum: #86456f;
+
+.content-wrapper {
+  .sectionRow {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin: 0 0 40px 0;
+    padding: 0;
+  }
+  .sectionRow.-wrap {
+    flex-wrap: wrap;
+  }
+  h1, h2, h3 {
+    // color: $mascaraplum;
+  }
+  h4 {
+    // margin-top: 2rem;
+    margin-bottom: 0;
+  }
+  .btn {
+    color: #FFF;
+    background-color: darken($mascaraplum, 4%);
+    padding: 8px 24px;
+
+    &:hover {
+      background-color: lighten($mascaraplum, 2%);
+    }
+  }
+  .linkCTA {
+    color: darken($mascaraplum, 4%);
+
+    &:hover {
+      color: lighten($mascaraplum, 2%);
+    }
+  } // linkCTA
+} //content-wrapper
