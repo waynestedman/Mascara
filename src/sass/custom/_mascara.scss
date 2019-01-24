@@ -12,12 +12,15 @@ $mascaraplum: #86456f;
   .sectionRow.-wrap {
     flex-wrap: wrap;
   }
-  h1, h2, h3 {
-    // color: $mascaraplum;
+  h2 {
+    text-align: center;
   }
   h4 {
     // margin-top: 2rem;
     margin-bottom: 0;
+  }
+  h6 {
+    margin: 40px 0;
   }
   .btn {
     color: #FFF;
@@ -27,7 +30,7 @@ $mascaraplum: #86456f;
     &:hover {
       background-color: lighten($mascaraplum, 2%);
     }
-  }
+  } // btn
   .linkCTA {
     color: darken($mascaraplum, 4%);
 
@@ -35,4 +38,60 @@ $mascaraplum: #86456f;
       color: lighten($mascaraplum, 2%);
     }
   } // linkCTA
+  .width50 {
+    width: 50%;
+  }
+  .clearfix {
+    @include clearfix;
+  }
 } //content-wrapper
+
+.slmCopy, .chooseMpp-text {
+  text-align: right;
+}
+
+.slmText, .mppText {
+  padding-top: 8%;
+}
+.slmText {
+  padding-left: 4%;
+}
+.mppText {
+  padding-right: 4%;
+}
+.chooseMpp-img {
+  margin-top: -30%;
+}
+
+#differences {
+  display: inline-block;
+
+  .differences-img {
+    // position: absolute;
+    width: 50%;
+  }
+  .differencesText-l {
+    float: left;
+    width: 30%;
+    padding-left: 3%;
+  }
+  .differencesText-r {
+    float: right;
+    width: 30%;
+    padding-right: 3%;
+  }
+} // differences
+
+#beforeAfter {
+  .beforeAfter-title {
+    width: 100%;
+  }
+  .beforeAfter-l, .beforeAfter-r {
+    flex-direction: column;
+    // align-items: center;
+  }
+  .beforeAfter-text {
+    width: 40%;
+    margin: 0 auto;
+  }
+} // remove

@@ -9,8 +9,8 @@
   "author": "Wayne Stedman",
   "license": "MIT",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/waynestedman/Mascara.git"
+    "type": "git",
+    "url": "https://github.com/waynestedman/Mascara.git"
   },
   "devDependencies": {
     "autoprefixer": "^9.4.6",
