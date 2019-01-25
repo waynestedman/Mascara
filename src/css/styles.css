@@ -200,7 +200,7 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: nowrap;
-  margin: 0 0 40px 0;
+  margin: 0 0 4rem 0;
   padding: 0;
 }
 
@@ -208,16 +208,21 @@ body {
   flex-wrap: wrap;
 }
 
-.content-wrapper h2 {
-  text-align: center;
+.content-wrapper h1 {
+  line-height: 1.2;
+  margin-bottom: 1rem;
 }
 
 .content-wrapper h4 {
   margin-bottom: 0;
 }
 
+.content-wrapper h5 {
+  margin: 1rem 0 2rem 0;
+}
+
 .content-wrapper h6 {
-  margin: 40px 0;
+  margin: 4rem 0;
 }
 
 .content-wrapper .btn {
@@ -262,6 +267,10 @@ body {
 
 * html .content-wrapper .clearfix {
   height: 1px;
+}
+
+.introText {
+  padding-right: 10%;
 }
 
 .slmCopy, .chooseMpp-text {
