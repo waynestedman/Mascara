@@ -24,11 +24,17 @@ $mascaraplum: #86456f;
   }
   .btn {
     color: #FFF;
-    background-color: darken($mascaraplum, 4%);
+    text-transform: uppercase;
+    cursor: pointer;
+    background: none;
+    border: 1px solid $gray700;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: $gray700;
     padding: 8px 24px;
 
     &:hover {
-      background-color: lighten($mascaraplum, 2%);
+      background-color: $gray600;
     }
   } // btn
   .linkCTA {
@@ -59,26 +65,28 @@ $mascaraplum: #86456f;
 .mppText {
   padding-right: 4%;
 }
-.chooseMpp-img {
-  margin-top: -30%;
-}
 
 #differences {
-  display: inline-block;
+
+  position: relative;
 
   .differences-img {
-    // position: absolute;
+    margin-top: 0;
+    float: left;
     width: 50%;
+    display: inline-block;
   }
   .differencesText-l {
-    float: left;
+    position: absolute;
+    top: 1%;
+    left: 3%;
     width: 30%;
-    padding-left: 3%;
   }
   .differencesText-r {
-    float: right;
+    position: absolute;
+    top: 1%;
+    right: 3%;
     width: 30%;
-    padding-right: 3%;
   }
 } // differences
 

@@ -222,12 +222,18 @@ body {
 
 .content-wrapper .btn {
   color: #FFF;
-  background-color: #793e64;
+  text-transform: uppercase;
+  cursor: pointer;
+  background: none;
+  border: 1px solid #424649;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #424649;
   padding: 8px 24px;
 }
 
 .content-wrapper .btn:hover {
-  background-color: #8d4875;
+  background-color: #9E9E9E;
 }
 
 .content-wrapper .linkCTA {
@@ -274,28 +280,29 @@ body {
   padding-right: 4%;
 }
 
-.chooseMpp-img {
-  margin-top: -30%;
-}
-
 #differences {
-  display: inline-block;
+  position: relative;
 }
 
 #differences .differences-img {
+  margin-top: 0;
+  float: left;
   width: 50%;
+  display: inline-block;
 }
 
 #differences .differencesText-l {
-  float: left;
+  position: absolute;
+  top: 1%;
+  left: 3%;
   width: 30%;
-  padding-left: 3%;
 }
 
 #differences .differencesText-r {
-  float: right;
+  position: absolute;
+  top: 1%;
+  right: 3%;
   width: 30%;
-  padding-right: 3%;
 }
 
 #beforeAfter .beforeAfter-title {
