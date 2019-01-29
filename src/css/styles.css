@@ -123,7 +123,7 @@ body {
   line-height: 1.4;
 }
 
-.content-wrapper .weight400 {
+.content-wrapper .font400 {
   font-weight: 400;
 }
 
@@ -281,8 +281,18 @@ body {
   height: 1px;
 }
 
-.introText {
-  padding-right: 10%;
+#intro {
+  position: relative;
+}
+
+#intro .introText {
+  position: absolute;
+  top: 14%;
+  left: 50%;
+}
+
+.slmImg, .mppImg {
+  width: 50%;
 }
 
 .slmText {
@@ -326,35 +336,40 @@ body {
 }
 
 #differences .differences-img {
-  margin-top: 0;
-  float: left;
+  margin-bottom: -10px;
   width: 50%;
-  display: inline-block;
+  float: left;
 }
 
 #differences .differencesText-l {
   position: absolute;
-  top: 1%;
+  top: 26%;
   left: 3%;
   width: 30%;
 }
 
 #differences .differencesText-r {
   position: absolute;
-  top: 1%;
+  top: 26%;
   right: 3%;
   width: 30%;
 }
 
 #differences .proTip {
-  background-color: rgba(255, 227, 233, 0.4);
+  clear: both;
+  background-color: #e3d5d9;
   width: 100%;
-  padding: 1% 12%;
-  margin: 4rem auto;
+  max-height: 100px;
+  padding: 1%;
+  margin: 0 auto 4rem auto;
+}
+
+#differences .proTip h4 {
+  margin: 0 0 0 3%;
 }
 
 #differences .proTip p {
-  margin-bottom: 0;
+  margin: 0 0 0 3%;
 }
 
 #beforeAfter .beforeAfter-title {
@@ -362,24 +377,53 @@ body {
   text-align: center;
 }
 
-#beforeAfter .beforeAfter-l, #beforeAfter .beforeAfter-r {
+#beforeAfter .beforeAfter-wrapper {
+  display: flex;
+}
+
+#beforeAfter .beforeAfter-wrapper .beforeAfter-l, #beforeAfter .beforeAfter-wrapper .beforeAfter-r {
+  width: 50%;
+  padding: 0 4%;
   flex-direction: column;
+  justify-content: space-between;
 }
 
-#beforeAfter .beforeAfter-l h5, #beforeAfter .beforeAfter-r h5 {
-  text-align: center;
+#beforeAfter .beforeAfter-wrapper .beforeAfter-l h5, #beforeAfter .beforeAfter-wrapper .beforeAfter-r h5 {
+  text-align: left;
 }
 
-#beforeAfter .beforeAfter-text {
-  width: 84%;
+#beforeAfter .beforeAfter-wrapper .beforeAfter-l .beforeAfter-imgs, #beforeAfter .beforeAfter-wrapper .beforeAfter-r .beforeAfter-imgs {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#beforeAfter .beforeAfter-wrapper .beforeAfter-l .beforeAfter-imgs img, #beforeAfter .beforeAfter-wrapper .beforeAfter-r .beforeAfter-imgs img {
+  max-width: 250px;
+}
+
+#beforeAfter .beforeAfter-wrapper .beforeAfter-l .beforeAfter-imgs h6, #beforeAfter .beforeAfter-wrapper .beforeAfter-r .beforeAfter-imgs h6 {
+  display: inline-block;
+  margin: 0;
+  max-width: 250px;
+}
+
+#beforeAfter .beforeAfter-wrapper .beforeAfter-l .beforeAfter-imgs .beforeImg, #beforeAfter .beforeAfter-wrapper .beforeAfter-r .beforeAfter-imgs .beforeImg {
+  margin-right: 6%;
+}
+
+#beforeAfter .beforeAfter-wrapper .beforeAfter-l .beforeAfter-imgs .beforeText, #beforeAfter .beforeAfter-wrapper .beforeAfter-r .beforeAfter-imgs .beforeText {
+  margin-right: 36%;
+}
+
+#beforeAfter .beforeAfter-wrapper .beforeAfter-l .beforeAfter-text, #beforeAfter .beforeAfter-wrapper .beforeAfter-r .beforeAfter-text {
   margin: 0 auto;
 }
 
-#beforeAfter .beforeAfter-text a {
+#beforeAfter .beforeAfter-wrapper .beforeAfter-l .beforeAfter-text a, #beforeAfter .beforeAfter-wrapper .beforeAfter-r .beforeAfter-text a {
   text-decoration: underline;
 }
 
-#beforeAfter .beforeAfter-text a:hover {
+#beforeAfter .beforeAfter-wrapper .beforeAfter-l .beforeAfter-text a:hover, #beforeAfter .beforeAfter-wrapper .beforeAfter-r .beforeAfter-text a:hover {
   color: #8d4875;
 }
 

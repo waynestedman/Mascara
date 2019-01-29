@@ -1,9 +1,9 @@
 // Custom styles for the Mascara page
 
 // $mascaraplum: #86456f;
-$mascaraplum: rgba(134, 69, 111, 1);
-// $mascarapink: #ffe3e9;
-$mascarapink: rgba(255, 227, 233, .4);
+$mascaraplum: rgb(134, 69, 111);
+
+$mascaratip: #ceb7be;
 
 .content-wrapper {
   .sectionRow {
@@ -39,7 +39,9 @@ $mascarapink: rgba(255, 227, 233, .4);
   h6 {
     margin: 4rem 0;
   }
-
+  // img {
+  //   width: 50%;
+  // }
   .btn {
     color: #FFF;
     text-transform: uppercase;
@@ -71,11 +73,19 @@ $mascarapink: rgba(255, 227, 233, .4);
 } //content-wrapper
 
 // intro section
-.introText {
-  padding-right: 10%;
-}
+#intro {
+  position: relative;
 
+  .introText {
+    position: absolute;
+    top: 14%;
+    left: 50%;
+  }
+}
 // products section
+.slmImg, .mppImg {
+  width: 50%;
+}
 .slmText, .mppText {
   // padding-top: 2%;
 }
@@ -119,31 +129,37 @@ $mascarapink: rgba(255, 227, 233, .4);
   position: relative;
 
   .differences-img {
-    margin-top: 0;
-    float: left;
+    // margin: 0;
+    margin-bottom: -10px;
     width: 50%;
-    display: inline-block;
+    float: left;
+    // display: inline-block;
   }
   .differencesText-l {
     position: absolute;
-    top: 1%;
+    top: 26%;
     left: 3%;
     width: 30%;
   }
   .differencesText-r {
     position: absolute;
-    top: 1%;
+    top: 26%;
     right: 3%;
     width: 30%;
   }
   .proTip {
-    background-color: $mascarapink;
+    clear: both;
+    background-color: lighten($mascaratip, 10%);
     width: 100%;
-    padding: 1% 12%;
-    margin: 4rem auto;
+    max-height: 100px;
+    padding: 1%;
+    margin: 0 auto 4rem auto;
 
+    h4 {
+      margin: 0 0 0 3%;
+    }
     p {
-      margin-bottom: 0;
+      margin: 0 0 0 3%;
     }
   }
 } // differences
@@ -153,23 +169,53 @@ $mascarapink: rgba(255, 227, 233, .4);
     width: 100%;
     text-align: center;
   }
-  .beforeAfter-l, .beforeAfter-r {
-    flex-direction: column;
+  .beforeAfter-wrapper {
+    display: flex;
 
-    h5 {
-      text-align: center;
-    }
-  }
-  .beforeAfter-text {
-    width: 84%;
-    margin: 0 auto;
+    .beforeAfter-l, .beforeAfter-r {
+      width: 50%;
+      padding: 0 4%;
+      flex-direction: column;
+      justify-content: space-between;
 
-    a {
-      text-decoration: underline;
-
-      &:hover {
-        color: lighten($mascaraplum, 2%);
+      h5 {
+        // padding-left: 7.8%;
+        text-align: left;
       }
-    }
-  }
+      .beforeAfter-imgs {
+        // max-width: 600px;
+        // width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+
+        img {
+          // margin-right: 20px;
+          max-width: 250px;
+        }
+        h6 {
+          display: inline-block;
+          margin: 0;
+          max-width: 250px;
+        }
+        .beforeImg {
+          margin-right: 6%;
+        }
+        .beforeText {
+          margin-right: 36%;
+        }
+      }
+      .beforeAfter-text {
+        // width: 84%;
+        margin: 0 auto;
+
+        a {
+          text-decoration: underline;
+
+          &:hover {
+            color: lighten($mascaraplum, 2%);
+          }
+        }
+      }
+    } // beforeAfter-l & -r
+  } // beforeAfter-wrapper
 } // before after
