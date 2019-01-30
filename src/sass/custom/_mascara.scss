@@ -39,9 +39,6 @@ $mascaratip: #ceb7be;
   h6 {
     margin: 4rem 0;
   }
-  // img {
-  //   width: 50%;
-  // }
   .btn {
     color: #FFF;
     text-transform: uppercase;
@@ -140,11 +137,9 @@ $mascaratip: #ceb7be;
   position: relative;
 
   .differences-img {
-    // margin: 0;
     margin-bottom: -10px;
     width: 50%;
     float: left;
-    // display: inline-block;
   }
   .differencesText-l {
     position: absolute;
@@ -184,40 +179,32 @@ $mascaratip: #ceb7be;
     display: flex;
 
     .beforeAfter-l, .beforeAfter-r {
-      width: 50%;
-      padding: 0 4%;
+      width: 46%;
+      padding: 0 2%;
+      margin: 0 auto;
       flex-direction: column;
       justify-content: space-between;
 
       h5 {
-        // padding-left: 7.8%;
         text-align: left;
       }
       .beforeAfter-imgs {
-        // max-width: 600px;
-        // width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-
-        img {
-          // margin-right: 20px;
+        .beforePic, .afterPic {
           max-width: 250px;
+          margin: 0;
+          display: inline-block;
+        }
+        .afterPic {
+          float: right;
         }
         h6 {
-          display: inline-block;
+          text-align: left;
           margin: 0;
-          max-width: 250px;
-        }
-        .beforeImg {
-          margin-right: 6%;
-        }
-        .beforeText {
-          margin-right: 36%;
         }
       }
       .beforeAfter-text {
-        // width: 84%;
         margin: 0 auto;
+        text-align: left;
 
         a {
           text-decoration: underline;

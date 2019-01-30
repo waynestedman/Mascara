@@ -106,20 +106,35 @@
       margin-bottom: 3rem;
     }
     .differencesText-l {
-      position: inherit;
-      top: 0;
+      position: absolute;
+      top: 1%;
       left: 0;
-      width: 100%;
+      width: 65%;
+
+      ul {
+        padding-left: 30px;
+        padding-right: 10px;
+      }
     }
     .differencesText-r {
-      position: inherit;
-      top: 0;
+      position: absolute;
+      top: 48%;
       right: 0;
-      width: 100%;
+      width: 65%;
+
+      ul {
+        padding-left: 30px;
+        padding-right: 10px;
+      }
     }
     .proTip {
       max-height: inherit;
-      padding-bottom: 2%;
+      padding: 2%;
+
+      p {
+        margin-left: 8%;
+        width: 83%;
+      }
     }
   } // differences
 
@@ -127,20 +142,27 @@
   #beforeAfter {
     .beforeAfter-wrapper {
       text-align: center;
+      flex-direction: column;
+      padding: 0 1%;
 
       .beforeAfter-l, .beforeAfter-r {
+        padding: inherit;
+        margin: 0 auto 2rem auto;
+        width: 100%;
+
         h5 {
           text-align: center;
         }
         .beforeAfter-imgs {
-          img {
-            width: 100px;
+          .beforePic, .afterPic {
+            max-width: 140px;
+            margin: 0 6px;
           }
-          .beforeImg {
-            margin-right: 0;
+          .afterPic {
+            float: inherit;
           }
-          .beforeText {
-            margin-right: 0;
+          h6 {
+            text-align: center;
           }
         }
         .beforeAfter-text {
