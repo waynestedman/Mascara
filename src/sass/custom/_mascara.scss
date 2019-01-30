@@ -83,18 +83,29 @@ $mascaratip: #ceb7be;
   }
 }
 // products section
-.slmImg, .mppImg {
+.slm, .mpp {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  margin: 0 0 4rem 0;
+  padding: 0;
+}
+.slmImg {
   width: 50%;
 }
-.slmText, .mppText {
-  // padding-top: 2%;
+.mppImg {
+  order: 1;
+  width: 50%;
 }
 .slmText {
+  width: 50%;
   text-align: right;
   padding-left: 4%;
   padding-right: 2%;
 }
 .mppText {
+  order: 2;
+  width: 50%;
   padding-right: 4%;
   padding-left: 2%;
 }

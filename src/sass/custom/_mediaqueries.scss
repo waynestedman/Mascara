@@ -2,28 +2,154 @@
   // .cms-page-view .column.main p {
   //   margin: 0 auto 10px auto;
   // }
-  // .content-wrapper {
-  //   h1 {
-  //     font-size: 45px;
-  //   }
-  //   h2 {
-  //     font-size: 35px;
-  //   }
-  //   h3 {
-  //     font-size: 25px;
-  //   }
-  //   h4 {
-  //     font-size: 60px;
-  //   }
-  //   h5 {
-  //     font-size: 22px;
-  //   }
-  //   h6 {
-  //     font-size: 15px;
-  //   }
-  //   p {
-  //     font-size: 15px;
-  //   }
+  .content-wrapper {
+    h1 {
+      font-size: 4.5rem;
+    }
+    h2 {
+      font-size: 3.5rem;
+    }
+    h3 {
+      font-size: 2.6rem;
+    }
+    h4 {
+      font-size: 3rem;
+      margin-top: 1rem;
+    }
+    h5 {
+      font-size: 2.5rem;
+    }
+    h6 {
+      font-size: 2rem;
+    }
+    p {
+      font-size: 1.8rem;
+    }
+  } // content-wrapper
+
+// intro section
+  #intro {
+    flex-direction: column;
+    text-align: center;
+
+    .introText {
+      position: inherit;
+      top: inherit;
+      left: inherit;
+      width: 98%;
+    }
+  } // intro
+
+// products section
+  .slm, .mpp {
+    flex-direction: column;
+  }
+  .slmImg, .mppImg {
+    width: 100%;
+  }
+  .slmText, .mppText {
+    width: 100%;
+    text-align: center;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+  .mppImg {
+    order: 2;
+  }
+  .mppText {
+    order: 1;
+  }
+
+// choose section
+  #choose {
+    .chooseSlm {
+      flex-direction: column;
+      text-align: center;
+      margin-bottom: 2rem;
+
+      .chooseSlm-text {
+        order: 2;
+        width: 100%;
+        padding-top: 0;
+        padding-left: 0;
+      }
+      .chooseSlm-img {
+        order: 1;
+        width: 100%;
+      }
+    } // chooseSlm
+    .chooseMpp {
+      flex-direction: column;
+      text-align: center;
+
+      .chooseMpp-text {
+        order: 2;
+        width: 100%;
+        padding-top: 0;
+        padding-right: 0;
+        text-align: center;
+      }
+      .chooseMpp-img {
+        order: 1;
+        width: 100%;
+      }
+    } // chooseMpp
+  } //choose
+
+// differences section
+  #differences {
+    .differences-img {
+      margin-bottom: 0;
+      width: 100%;
+    }
+    .differences-l, .differences-r {
+      margin-bottom: 3rem;
+    }
+    .differencesText-l {
+      position: inherit;
+      top: 0;
+      left: 0;
+      width: 100%;
+    }
+    .differencesText-r {
+      position: inherit;
+      top: 0;
+      right: 0;
+      width: 100%;
+    }
+    .proTip {
+      max-height: inherit;
+      padding-bottom: 2%;
+    }
+  } // differences
+
+// Before & After section
+  #beforeAfter {
+    .beforeAfter-wrapper {
+      text-align: center;
+
+      .beforeAfter-l, .beforeAfter-r {
+        h5 {
+          text-align: center;
+        }
+        .beforeAfter-imgs {
+          img {
+            width: 100px;
+          }
+          .beforeImg {
+            margin-right: 0;
+          }
+          .beforeText {
+            margin-right: 0;
+          }
+        }
+        .beforeAfter-text {
+          text-align: center;
+        }
+      }
+    } // beforeAfter-wrapper
+  } //beforeAfter
+
 } // Mobile - everything smaller than 500
 @media only screen and (max-width: 1024px) and (min-width: 600px) {
   // .content-wrapper {
