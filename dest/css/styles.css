@@ -301,6 +301,10 @@ body {
   left: 50%;
 }
 
+#intro .introText p {
+  width: 92%;
+}
+
 .slm, .mpp {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -631,6 +635,140 @@ body {
   }
   #beforeAfter .beforeAfter-wrapper .beforeAfter-l .beforeAfter-text, #beforeAfter .beforeAfter-wrapper .beforeAfter-r .beforeAfter-text {
     text-align: center;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 599px) {
+  .content-wrapper h1 {
+    font-size: 5rem;
+    line-height: 1;
+  }
+  .content-wrapper h2 {
+    font-size: 4rem;
+  }
+  .content-wrapper h3 {
+    font-size: 2.6rem;
+  }
+  .content-wrapper h5 {
+    font-size: 2.4rem;
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+  }
+  .content-wrapper p {
+    font-size: 1.7rem;
+  }
+  #intro .introText {
+    top: 4%;
+    left: 55%;
+  }
+  #intro .introText p {
+    width: 98%;
+  }
+  #intro .introText h6 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .slmText, .mppText {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  #choose .chooseSlm .chooseSlm-text {
+    width: 55%;
+    padding-top: 2%;
+    padding-left: 2%;
+  }
+  #choose .chooseMpp {
+    margin-top: 3%;
+  }
+  #choose .chooseMpp .chooseMpp-text {
+    width: 55%;
+    padding-top: 8%;
+    padding-right: 2%;
+  }
+  #differences .differencesText-l {
+    top: 0;
+    left: 0;
+    width: 32%;
+  }
+  #differences .differencesText-r {
+    top: 0;
+    right: 2%;
+    width: 32%;
+  }
+  #beforeAfter .beforeAfter-wrapper {
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 0 1%;
+  }
+  #beforeAfter .beforeAfter-wrapper .beforeAfter-l, #beforeAfter .beforeAfter-wrapper .beforeAfter-r {
+    padding: inherit;
+    margin: 0 auto 2rem auto;
+    width: 92%;
+  }
+  #beforeAfter .beforeAfter-wrapper .beforeAfter-l h5, #beforeAfter .beforeAfter-wrapper .beforeAfter-r h5 {
+    text-align: center;
+  }
+  #beforeAfter .beforeAfter-wrapper .beforeAfter-l .beforeAfter-imgs .beforePic, #beforeAfter .beforeAfter-wrapper .beforeAfter-l .beforeAfter-imgs .afterPic, #beforeAfter .beforeAfter-wrapper .beforeAfter-r .beforeAfter-imgs .beforePic, #beforeAfter .beforeAfter-wrapper .beforeAfter-r .beforeAfter-imgs .afterPic {
+    max-width: 250px;
+    margin: 0 2%;
+  }
+  #beforeAfter .beforeAfter-wrapper .beforeAfter-l .beforeAfter-imgs .afterPic, #beforeAfter .beforeAfter-wrapper .beforeAfter-r .beforeAfter-imgs .afterPic {
+    float: inherit;
+  }
+  #beforeAfter .beforeAfter-wrapper .beforeAfter-l .beforeAfter-imgs h6, #beforeAfter .beforeAfter-wrapper .beforeAfter-r .beforeAfter-imgs h6 {
+    text-align: center;
+    margin: 0;
+  }
+  #beforeAfter .beforeAfter-wrapper .beforeAfter-l .beforeAfter-text, #beforeAfter .beforeAfter-wrapper .beforeAfter-r .beforeAfter-text {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 650px) and (min-width: 600px) {
+  .content-wrapper h1 {
+    font-size: 4.3rem;
+  }
+  .content-wrapper h2 {
+    font-size: 3rem;
+  }
+  .content-wrapper h3 {
+    font-size: 2.5rem;
+  }
+  .content-wrapper h5 {
+    font-size: 2.2rem;
+  }
+  .content-wrapper p {
+    font-size: 1.5rem;
+  }
+  #differences .differencesText-l {
+    top: 0;
+    left: 0;
+    width: 35%;
+  }
+  #differences .differencesText-l ul {
+    padding-left: 20px;
+    padding-right: 10px;
+  }
+  #differences .differencesText-l ul li {
+    font-size: 1.5rem;
+  }
+  #differences .differencesText-r {
+    top: 0;
+    right: 0;
+    width: 35%;
+  }
+  #differences .differencesText-r ul {
+    padding-left: 30px;
+    padding-right: 10px;
+  }
+  #differences .differencesText-r ul li {
+    font-size: 1.5rem;
+  }
+  #beforeAfter .beforeAfter-wrapper .beforeAfter-l .beforeAfter-imgs .beforePic, #beforeAfter .beforeAfter-wrapper .beforeAfter-l .beforeAfter-imgs .afterPic, #beforeAfter .beforeAfter-wrapper .beforeAfter-r .beforeAfter-imgs .beforePic, #beforeAfter .beforeAfter-wrapper .beforeAfter-r .beforeAfter-imgs .afterPic {
+    max-width: 225px;
   }
 }
 

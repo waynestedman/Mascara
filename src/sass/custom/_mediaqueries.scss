@@ -173,28 +173,176 @@
   } //beforeAfter
 
 } // Mobile - everything smaller than 500
-@media only screen and (max-width: 1024px) and (min-width: 600px) {
-  // .content-wrapper {
-  //   h1 {
-  //     font-size: 50px;
-  //   }
-  //   h2 {
-  //     font-size: 45px;
-  //   }
-  //   h3 {
-  //     font-size: 28px;
-  //   }
+@media only screen and (max-width: 1024px) and (min-width: 599px) {
+  .content-wrapper {
+    h1 {
+      font-size: 5rem;
+      line-height: 1;
+    }
+    h2 {
+      font-size: 4rem;
+    }
+    h3 {
+      font-size: 2.6rem;
+    }
   //   h4 {
   //     font-size: 50px;
   //   }
-  //   h5 {
-  //     font-size: 20px;
-  //   }
-  //   p {
-  //     font-size: 16px;
-  //   }
-  // } // content-wrapper
-} // min 600 to max 1024 - Tablet
-// @media only screen and (max-width: 800px) and (min-width: 600px) {
-//
-// } // min 600 to max 800 - Tablet exceptions
+    h5 {
+      font-size: 2.4rem;
+      line-height: 1.1;
+      margin-bottom: 1.5rem;
+    }
+    p {
+      font-size: 1.7rem;
+    }
+  } // content-wrapper
+// intro section
+  #intro {
+    .introText {
+      top: 4%;
+      left: 55%;
+
+      p {
+        width: 98%;
+      }
+      h6 {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+      }
+    }
+  } // intro
+// products section
+  .slmText, .mppText {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+// choose section
+  #choose {
+    .chooseSlm {
+      .chooseSlm-text {
+        width: 55%;
+        padding-top: 2%;
+        padding-left: 2%;
+      }
+    }
+    .chooseMpp {
+      margin-top: 3%;
+
+      .chooseMpp-text {
+        width: 55%;
+        padding-top: 8%;
+        padding-right: 2%;
+      }
+    }
+  } // choose
+//differences section
+  #differences {
+    .differencesText-l {
+      top: 0;
+      left: 0;
+      width: 32%;
+    }
+    .differencesText-r {
+      top: 0;
+      right: 2%;
+      width: 32%;
+    }
+  } // differences
+// before & after secion
+#beforeAfter {
+  .beforeAfter-wrapper {
+    text-align: center;
+    flex-direction: column;
+    padding: 0 1%;
+
+    .beforeAfter-l, .beforeAfter-r {
+      padding: inherit;
+      margin: 0 auto 2rem auto;
+      width: 92%;
+
+      h5 {
+        text-align: center;
+      }
+      .beforeAfter-imgs {
+        .beforePic, .afterPic {
+          max-width: 250px;
+          margin: 0 2%;
+        }
+        .afterPic {
+          float: inherit;
+        }
+        h6 {
+          text-align: center;
+          margin: 0;
+        }
+      }
+      .beforeAfter-text {
+        text-align: center;
+      }
+    } // beforeAfter-l & -r
+  } // beforeAfter-wrapper
+} // before after
+
+
+} // min 599 to max 1024 - Tablet
+@media only screen and (max-width: 650px) and (min-width: 600px) {
+  .content-wrapper {
+    h1 {
+      font-size: 4.3rem;
+    }
+    h2 {
+      font-size: 3rem;
+    }
+    h3 {
+      font-size: 2.5rem;
+    }
+    h5 {
+      font-size: 2.2rem;
+    }
+    p {
+      font-size: 1.5rem;
+    }
+  }
+  #differences {
+    .differencesText-l {
+      top: 0;
+      left: 0;
+      width: 35%;
+
+      ul {
+        padding-left: 20px;
+        padding-right: 10px;
+
+        li {
+          font-size: 1.5rem;
+        }
+      }
+    }
+    .differencesText-r {
+      top: 0;
+      right: 0;
+      width: 35%;
+
+      ul {
+        padding-left: 30px;
+        padding-right: 10px;
+
+        li {
+          font-size: 1.5rem;
+        }
+      }
+    }
+  } // differences
+  #beforeAfter {
+    .beforeAfter-wrapper {
+      .beforeAfter-l, .beforeAfter-r {
+        .beforeAfter-imgs {
+          .beforePic, .afterPic {
+            max-width: 225px;
+          }
+        }
+      } // beforeAfter-l & -r
+    } // beforeAfter-wrapper
+  } // before after
+} // min 600 to max 650 - Tablet exceptions
