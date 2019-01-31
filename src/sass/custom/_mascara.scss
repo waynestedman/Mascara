@@ -31,7 +31,7 @@ $mascaratip: #ceb7be;
   h4 {
     font-size: 2.9rem;
     line-height: 1.2;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
   h5 {
     margin: 1rem 0 2rem 0;
@@ -133,6 +133,10 @@ $mascaratip: #ceb7be;
     text-align: right;
     padding-top: 10%;
     padding-right: 14%;
+
+    h3 {
+      padding-left: 80px;
+    }
   }
 }
 
@@ -145,17 +149,20 @@ $mascaratip: #ceb7be;
     width: 50%;
     float: left;
   }
-  .differencesText-l {
+  .differencesText-l, .differencesText-r {
     position: absolute;
     top: 26%;
-    left: 3%;
     width: 30%;
+
+    ul>li {
+      margin-bottom: 2rem;
+    }
+  }
+  .differencesText-l {
+    left: 3%;
   }
   .differencesText-r {
-    position: absolute;
-    top: 26%;
     right: 3%;
-    width: 30%;
   }
   .proTip {
     clear: both;
@@ -166,7 +173,7 @@ $mascaratip: #ceb7be;
     margin: 0 auto 4rem auto;
 
     h4 {
-      margin: 0 0 0 3%;
+      margin: 0 0 0.4% 3%;
     }
     p {
       margin: 0 0 0 3%;

@@ -226,7 +226,7 @@ body {
 .content-wrapper h4 {
   font-size: 2.9rem;
   line-height: 1.2;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .content-wrapper h5 {
@@ -351,6 +351,10 @@ body {
   padding-right: 14%;
 }
 
+#choose .chooseMpp-text h3 {
+  padding-left: 80px;
+}
+
 #differences {
   position: relative;
 }
@@ -361,18 +365,22 @@ body {
   float: left;
 }
 
-#differences .differencesText-l {
+#differences .differencesText-l, #differences .differencesText-r {
   position: absolute;
   top: 26%;
-  left: 3%;
   width: 30%;
 }
 
+#differences .differencesText-l ul > li, #differences .differencesText-r ul > li {
+  margin-bottom: 2rem;
+}
+
+#differences .differencesText-l {
+  left: 3%;
+}
+
 #differences .differencesText-r {
-  position: absolute;
-  top: 26%;
   right: 3%;
-  width: 30%;
 }
 
 #differences .proTip {
@@ -385,7 +393,7 @@ body {
 }
 
 #differences .proTip h4 {
-  margin: 0 0 0 3%;
+  margin: 0 0 0.4% 3%;
 }
 
 #differences .proTip p {
@@ -454,6 +462,7 @@ body {
   .content-wrapper h4 {
     font-size: 3rem;
     margin-top: 1rem;
+    margin-bottom: 1rem;
   }
   .content-wrapper h5 {
     font-size: 2.5rem;
@@ -495,7 +504,7 @@ body {
   #choose .chooseSlm {
     flex-direction: column;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
   }
   #choose .chooseSlm .chooseSlm-text {
     order: 2;
@@ -517,6 +526,9 @@ body {
     padding-top: 0;
     padding-right: 0;
     text-align: center;
+  }
+  #choose .chooseMpp .chooseMpp-text h3 {
+    padding-left: 0;
   }
   #choose .chooseMpp .chooseMpp-img {
     order: 1;
@@ -591,7 +603,7 @@ body {
     line-height: 1;
   }
   .content-wrapper h2 {
-    font-size: 4rem;
+    font-size: 4.1rem;
   }
   .content-wrapper h3 {
     font-size: 2.6rem;
@@ -713,6 +725,14 @@ body {
   }
   #beforeAfter .beforeAfter-wrapper .beforeAfter-l .beforeAfter-imgs .beforePic, #beforeAfter .beforeAfter-wrapper .beforeAfter-l .beforeAfter-imgs .afterPic, #beforeAfter .beforeAfter-wrapper .beforeAfter-r .beforeAfter-imgs .beforePic, #beforeAfter .beforeAfter-wrapper .beforeAfter-r .beforeAfter-imgs .afterPic {
     max-width: 225px;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  #products .slmText h2, #products .mppText h2 {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
