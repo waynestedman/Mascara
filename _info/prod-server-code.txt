@@ -776,16 +776,16 @@
   <section id="intro" class="sectionRow">
     <div class="introImg">
       <picture>
-        <source srcset="https://www.dhccare.com/media/wysiwyg/content/product/mascara/intro-m.jpg" media="(max-width: 599px)" />
-        <source srcset="https://www.dhccare.com/media/wysiwyg/content/product/mascara/intro-t.jpg" media="(max-width: 1024px)" />
-        <img src="https://www.dhccare.com/media/wysiwyg/content/product/mascara/intro.jpg" alt="the DHC Mascara Collection" />
+        <source srcset="/media/wysiwyg/content/product/mascara/intro-m.jpg" media="(max-width: 599px)" />
+        <source srcset="/media/wysiwyg/content/product/mascara/intro-t.jpg" media="(max-width: 1024px)" />
+        <img src="/media/wysiwyg/content/product/mascara/intro.jpg" alt="the DHC Mascara Collection" />
       </picture>
     </div>
     <div class="introText">
       <h1>Mascaras for <br>Every Mood</h1>
       <h5>Open your eyes to infinite new looks!</h5>
       <p>Now, it's easier than ever to find your perfect mascara. Choose from our high-performance Japanese tube technology or triple-fiber gel formulations.</p>
-      <h6><a class="btn" href="https://www.dhccare.com/shop/makeup.html">Shop Now</a></h6>
+      <h6><a class="btn" href="/shop/makeup.html">Shop Now</a></h6>
     </div>
   </section> <!-- intro -->
   <section id="products">
@@ -795,7 +795,7 @@
         <p>Dramatic length and advanced protection</p>
       </div>
       <div class="slmImg">
-        <img src="https://www.dhccare.com/media/wysiwyg/content/product/mascara/slm.jpg" alt="">
+        <img src="/media/wysiwyg/content/product/mascara/slm.jpg" alt="">
       </div>
     </div>
     <div class="mpp">
@@ -804,7 +804,7 @@
         <p>Brilliant definition and long-lasting wear</p>
       </div>
       <div class="mppImg">
-        <img src="https://www.dhccare.com/media/wysiwyg/content/product/mascara/mpp.jpg" alt="">
+        <img src="/media/wysiwyg/content/product/mascara/mpp.jpg" alt="">
       </div>
     </div>
   </section> <!-- products -->
@@ -816,12 +816,12 @@
         <p>Our advanced Japanese formula blends lash fibers of 3 different lengths for a more dramatic lengthening effect. Enjoy your most striking lash look yet.</p>
       </div>
       <div class="chooseSlm-img">
-        <img src="https://www.dhccare.com/media/wysiwyg/content/product/mascara/slm-ribbon.jpg" alt="">
+        <img src="/media/wysiwyg/content/product/mascara/slm-ribbon.jpg" alt="">
       </div>
     </div>
     <div class="chooseMpp sectionRow">
       <div class="chooseMpp-img">
-        <img src="https://www.dhccare.com/media/wysiwyg/content/product/mascara/mpp-ribbon.jpg" alt="">
+        <img src="/media/wysiwyg/content/product/mascara/mpp-ribbon.jpg" alt="">
       </div>
        <div class="chooseMpp-text">
          <h3>Choose When You Want ...</h3>
@@ -834,8 +834,8 @@
     <div class="differences-l">
       <div class="differences-img">
         <picture>
-          <source srcset="https://www.dhccare.com/media/wysiwyg/content/product/mascara/side-by-side-mpp-m.jpg" media="(max-width: 599px)" />
-          <img src="https://www.dhccare.com/media/wysiwyg/content/product/mascara/side-by-side-mpp.jpg" alt="">
+          <source srcset="/media/wysiwyg/content/product/mascara/side-by-side-mpp-m.jpg" media="(max-width: 599px)" />
+          <img src="/media/wysiwyg/content/product/mascara/side-by-side-mpp.jpg" alt="">
         </picture>
 
       </div>
@@ -851,8 +851,8 @@
     <div class="differences-r">
       <div class="differences-img">
         <picture>
-          <source srcset="https://www.dhccare.com/media/wysiwyg/content/product/mascara/side-by-side-slm-m.jpg" media="(max-width: 599px)" />
-          <img src="https://www.dhccare.com/media/wysiwyg/content/product/mascara/side-by-side-slm.jpg" alt="">
+          <source srcset="/media/wysiwyg/content/product/mascara/side-by-side-slm-m.jpg" media="(max-width: 599px)" />
+          <img src="/media/wysiwyg/content/product/mascara/side-by-side-slm.jpg" alt="">
         </picture>
       </div>
       <div class="differencesText-r">
@@ -877,11 +877,11 @@
         <h5>Mascara Perfect Pro Double Protection</h5>
         <div class="beforeAfter-imgs">
           <div class="beforePic">
-            <img class="beforeImg" src="https://www.dhccare.com/media/wysiwyg/content/product/mascara/mpp-before.jpg" alt="before applying Mascara Perfect Pro Double Protection">
+            <img class="beforeImg" src="/media/wysiwyg/content/product/mascara/mpp-before.jpg" alt="before applying Mascara Perfect Pro Double Protection">
             <h6>Before</h6>
           </div>
           <div class="afterPic">
-            <img src="https://www.dhccare.com/media/wysiwyg/content/product/mascara/mpp-after.jpg" alt="after applying Mascara Perfect Pro Double Protection">
+            <img src="/media/wysiwyg/content/product/mascara/mpp-after.jpg" alt="after applying Mascara Perfect Pro Double Protection">
             <h6>After</h6>
           </div>
         </div>
@@ -894,17 +894,17 @@
         <h5><span class="font400">NEW</span> Super Long Mascara EX</h5>
         <div class="beforeAfter-imgs">
           <div class="beforePic">
-            <img src="https://www.dhccare.com/media/wysiwyg/content/product/mascara/slm-before.jpg" alt="before applying Super Long Mascara EX">
+            <img src="/media/wysiwyg/content/product/mascara/slm-before.jpg" alt="before applying Super Long Mascara EX">
             <h6>Before</h6>
           </div>
           <div class="afterPic">
-            <img src="https://www.dhccare.com/media/wysiwyg/content/product/mascara/slm-after.jpg" alt="after applying Super Long Mascara EX">
+            <img src="/media/wysiwyg/content/product/mascara/slm-after.jpg" alt="after applying Super Long Mascara EX">
             <h6>After</h6>
           </div>
         </div>
         <div class="beforeAfter-text">
           <h4>How to remove Super Long Mascara EX:</h4>
-          <p>Remove with <a href="https://www.dhccare.com/eye-lip-makeup-remover.html">Eye & Lip Makeup Remover</a> with <a href="https://www.dhccare.com/silky-cotton.html">Silky Cotton</a>.</p>
+          <p>Remove with <a href="/eye-lip-makeup-remover.html">Eye & Lip Makeup Remover</a> with <a href="/silky-cotton.html">Silky Cotton</a>.</p>
         </div>
       </div> <!-- beforeAfter R -->
     </div>
